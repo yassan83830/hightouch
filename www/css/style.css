@@ -1,0 +1,74 @@
+/**/
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-image: url("../bgimg/bgimg.png");
+	
+}
+
+/* ロゴ */
+#logoimg {
+	width: 100vw;
+	height: auto;
+	object-fit: cover;
+}
+
+/* ロゴのimg */
+img#logo {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+input{
+	
+	font-family: "Rounded Mplus 1c";
+}
+
+/* ユーザカウント */
+#countcontainer {
+	display: flex;
+	justify-content: center;
+	
+	font-family: "Rounded Mplus 1c";
+}
+
+/* ハイタッチ判定部分 */
+#hitarea {
+	position: relative;
+	color: #fff;
+	height: 72vh;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background-image: url("../bgimg/bgimg2.png");
+}
+
+/* 手のimg */
+img#hand {
+	object-fit: contain;
+	height: 100%;
+	width: 100%;
+}
+
+/* 手 */
+#handcontainer {
+	position: relative;
+}
+
+/* コメント */
+#infocontainer {
+	position: absolute;
+	top: 0;
+	left: 5%;
+	font-family: "Rounded Mplus 1c";
+}
+
+#commenttitle{
+	font-size: 1.2em;
+}
